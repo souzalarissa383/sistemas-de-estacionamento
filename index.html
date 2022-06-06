@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  name="viewport" initial-scale=1.0 charset="UTF-8" lang="pt-br"/>
+        <title> Sistema de Estacionamento</title>
+    </head>
+    <body>
+         <input type="text" id="nome" placeholder="Digital o nome do Veiculo: " autocomplete="off">
+         <input type="text" id="placa" placeholder="Digite o número da Placa: " autocomplete="off">
+
+         <button id="cadastrar">Cadastrar</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Placa</th>
+                    <th>Entrada</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="patio"></tbody>
+        </table>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
